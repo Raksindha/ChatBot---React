@@ -27,7 +27,7 @@ function App() {
                </p>
             </div>
              <div className="message user-message">
-               <ChatbotIcon/>
+               {/* <ChatbotIcon/> */}
                <p className="message-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                </p>
@@ -38,7 +38,7 @@ function App() {
           <div className="chat-footer">
             <form action="#" className="chat-form">
               <input type="text" placeholder="Message..." className="message-input" required/>
-                          <button className="material-symbols-rounded">arrow_upward</button>
+              <button className="material-symbols-rounded">arrow_upward</button>
             </form>
           </div>
         </div>
